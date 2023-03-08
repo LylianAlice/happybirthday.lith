@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="login_style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <audio id="myAudio">
+        <source src="ShiNi_MongNhien.mp3" type="audio/mpeg">
+    </audio>
+    <div class="container">
+        <h1>FOR LITH ONLY</h1>
+        <p>Login with username is LiTH's email address and password is the first 14 numbers of the Pi (Ex:
+            3.14...).</p>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+            <button type="reset" onclick="validate()">Submit</button>
+        </form>
+    </div>
+
+    <div id="myPopup1">
+        <div id="myPopupContent">
+            <h2>Welcome LiTH</h2>
+            <p>Hello Athw. Happy Birthday, wish you all the best!</p>
+            <p>Click here to see my first gift...</p>
+
+        </div>
+    </div>
+
+    <div id="myPopup0">
+        <div id="myPopupContent">
+            <h2>Dude. You are not LiTH. Go away!</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
