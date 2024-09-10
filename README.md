@@ -1,2 +1,2 @@
-# https://thinhtklinh.github.io/hpbd.lith/
+# https://thinhtklinh.github.io/lith/
 a site for LiTH.
